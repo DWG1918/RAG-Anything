@@ -28,10 +28,6 @@ def main():
         enable_image_processing=True,
         enable_table_processing=True,
         enable_equation_processing=True,
-        batch_size=5,
-        max_workers=2,
-        output_format="json",
-        save_intermediate=True
     )
     
     print(f"配置: 解析器={config.parser}, 工作目录={config.working_dir}")

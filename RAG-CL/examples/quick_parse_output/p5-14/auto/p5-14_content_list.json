@@ -1,0 +1,1056 @@
+[
+    {
+        "type": "text",
+        "text": "General Topics ",
+        "text_level": 1,
+        "bbox": [
+            55,
+            148,
+            225,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.1 Introduction ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            181,
+            191,
+            197
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "iemens product development has developed a standardised package solution. The aims of this project are o: ",
+        "bbox": [
+            45,
+            211,
+            937,
+            243
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Create a product that is structured to fit varied markets through the use of pre engineered options Reduce package purchase cost Reduce the manufacturing time and costs   \n• Reduce installation and maintenance time and cost   \n• Reduce product structure to a level where it is maintainable   \n• Create a set of standard documentation. ",
+        "bbox": [
+            60,
+            249,
+            899,
+            381
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "This specification gives the technical requirements concerning procurement of the acoustic package. The package has two configurations: ",
+        "bbox": [
+            38,
+            387,
+            939,
+            418
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Based around the requirements for an onshore application • For offshore applications. ",
+        "bbox": [
+            60,
+            425,
+            574,
+            466
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "This specification covers the technical aspects of the package. For a complete set of options, supplier drawing numbers and any supplier specific detail please refer to the supplier specific specification. ",
+        "bbox": [
+            35,
+            493,
+            937,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The bidder shall conform to this technical specification and its attachments and, in detail, state any points of divergence. ",
+        "bbox": [
+            35,
+            531,
+            937,
+            563
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "If any component or unit that is not mentioned in this specification can be considered to form an essential part of the equipment of delivery, it must still be included in the scope of supply. The delivery shall include all necessary equipment to form a complete and functional unit. ",
+        "bbox": [
+            30,
+            592,
+            947,
+            638
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Package covered by these requirements is defined by its function rather than design type. Thus the specification is stated in performance terms rather than being specified by detailed description of the Acoustic Package to be supplied. ",
+        "bbox": [
+            30,
+            644,
+            947,
+            692
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.2 Description of the Main Scope of Supply ",
+        "text_level": 1,
+        "bbox": [
+            35,
+            147,
+            438,
+            165
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The acoustic package scope consists of ",
+        "bbox": [
+            40,
+            180,
+            373,
+            196
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "a) Acoustic enclosure and support steelwork where necessary.   \nb) Ventilation system including fan(s), silencer, ventilation dampers, filter where required and duct work.   \nc) Combustion intake system including filtration, silencer and ductwork d) Exhaust system including silencer, duct work and expansion joint where required.   \ne) L.O cooler pipework, breather pipework and P2 pipe work external to enclosure.   \nf) Cable tray and small bore pipework above the enclosure roof. ",
+        "bbox": [
+            57,
+            202,
+            924,
+            330
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1.3 General Split of supply ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            350,
+            284,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/1a7e1359b84501092e746bed863d8c59f75f9906b17dffb2a43ff2bf494333b1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            52,
+            380,
+            914,
+            644
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "\\*Or Siemens works when combined test is required ",
+        "bbox": [
+            31,
+            658,
+            457,
+            674
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "This specification should be read in conjunction with SGT-100-2S N package acoustic equipment parameter drawing RU01042A. ",
+        "bbox": [
+            33,
+            687,
+            924,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "References and Design Codes ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            148,
+            383,
+            167
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a) The design shall comply with all applicable International and European Standards. The supplier shall define what standards are applicable. ",
+        "bbox": [
+            58,
+            181,
+            924,
+            212
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "b) The supplier shall use their expertise to ensure that the developed standards cater for local legislation where possible. In instances where the standards are not suitable for local legislation, the supplier must consider pre-definition of how standards will be adapted to suit, and the implications thereof. ",
+        "bbox": [
+            60,
+            231,
+            941,
+            279
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "d) All technical data, calculations and measurements shall be presented in SI-units. ",
+        "bbox": [
+            57,
+            293,
+            754,
+            310
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "General design requirements and design data ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            148,
+            542,
+            167
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.1 Environmental design limits ",
+        "text_level": 1,
+        "bbox": [
+            36,
+            181,
+            329,
+            197
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/26a1ed0e391ea18851d80fa01147e330e483acf2c2f7730525f72c7fc25c80bf.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "Siemens Industrial Turbomachinery Department E O GT R&D Ref.-No.: 64/03020193 ",
+            "Issue 05 Page 8 of 49 Date:12-12-2014 "
+        ],
+        "bbox": [
+            50,
+            203,
+            924,
+            870
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/f81af970af07ecdd929c52495dbf04cec46435f81963b38002e34918ce4c7ea3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            50,
+            128,
+            929,
+            658
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 Load combinations ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            684,
+            252,
+            699
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The running loads are analysed with the following combinations: ",
+        "bbox": [
+            78,
+            699,
+            608,
+            715
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/ecf394fa1fb6efe0b85807909476e36b662a0d142e58e5da53ad9563817c748d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            31,
+            727,
+            689,
+            780
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "All other loads shall be treated individually. ",
+        "bbox": [
+            80,
+            794,
+            433,
+            809
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Issue 05   \nPage 9 of 49   \nDate:12-12-2014 ",
+        "bbox": [
+            687,
+            869,
+            818,
+            921
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.3 Noise requirements ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            149,
+            255,
+            165
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/89f7978e5a2a9dc1d97c252b014652590e96859cd21abe0fb7ffbeff7d0406ac.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            45,
+            178,
+            907,
+            374
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.4 Availability and Reliability ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            401,
+            310,
+            418
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a) The equipment shall be designed for continuous operation   \nb) The equipment shall be designed to operate without operator handling during normal operation. A guideline for local supervision by rounding is one time per working shift. ",
+        "bbox": [
+            58,
+            432,
+            946,
+            487
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The vendor shall state MTBF figures for: ",
+        "bbox": [
+            60,
+            492,
+            394,
+            508
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "• Vent dampers • Vent fan • Pulse filter system • Any other critical items ",
+        "bbox": [
+            60,
+            514,
+            282,
+            601
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.5 Life expectancy ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            621,
+            220,
+            638
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The Plant is designed for 20 years operation. The bidder shall define limitations on equipment life, if any, and these should be included in the tender evaluation process. ",
+        "bbox": [
+            33,
+            652,
+            941,
+            683
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.6 Performance Guarantees ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            703,
+            302,
+            720
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The Bidder shall guarantee the following performance requirements: ",
+        "bbox": [
+            30,
+            734,
+            593,
+            751
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Noise level according to chapter 3.4.6 • Filtration requirements as per intake system section. • Life of exhaust flexible joint (when supplied) ",
+        "bbox": [
+            60,
+            757,
+            522,
+            821
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Siemens Industrial Turbomachinery Department E O GT R&D Ref.-No.: 64/03020193 ",
+        "bbox": [
+            78,
+            869,
+            278,
+            939
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.7 Fluids specification ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            148,
+            255,
+            165
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "See fluids specification 65/0027. This gives details of combustion and instrument air quality requirements. ",
+        "bbox": [
+            57,
+            178,
+            936,
+            196
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.8 Heat release ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            216,
+            191,
+            231
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/a05fa893582b4fdbf0dff052eec97d04878980f3cc4e8d5d1361c8ed90b96069.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            53,
+            246,
+            608,
+            284
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Note: The figures given in this table have been increased from 73kW following measurements during a combined test validation. The above increased heat release values are formally specified for all projects from NU0415/01-02 onwards (previous projects managed on a contract-specific basis). ",
+        "bbox": [
+            57,
+            296,
+            927,
+            334
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.9 Enclosure pressures ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            348,
+            265,
+            363
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a) Nominal positive pressure in enclosure due to fan operating: +30mmH2O (±5mmH2O)   \nb) Max design over pressure in enclosure: +100mmH2O   \nc) Max design under pressure in enclosure: -100mmH2O ",
+        "bbox": [
+            60,
+            378,
+            798,
+            424
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.10 Zone in and around package ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            454,
+            332,
+            469
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a) Inside the enclosure is considered a zone 2 area while the fans are running. If ventilation fails and gas is still present on skid the enclosure becomes a zone 1 area.   \nb) Positive pressure set: 0.760m loci from enclosure wall zone 2 while fans running   \nc) Negative pressure set: Safe area outside enclosure while fans running   \nd) See TDR 04/247 for more information ",
+        "bbox": [
+            58,
+            483,
+            939,
+            561
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.11 Enclosure design temperatures ",
+        "text_level": 1,
+        "bbox": [
+            35,
+            590,
+            359,
+            606
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/855b172e2c7a61fbbc4d0648f090aabb837d3ab5cdac09a34c1a5e0b4fca8dc1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            31,
+            619,
+            924,
+            719
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.12 Noise data ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            148,
+            176,
+            164
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The figures quoted as sound power levels (SWL) Ref. 10-12 Watt, dB are calculated from in-duct sound pressure level measurements . ",
+        "bbox": [
+            65,
+            178,
+            917,
+            209
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The inlet noise figures, are measured in the middle of the inlet duct approximately 1m above the inlet cas ing, using a condenser microphone fitted with an aerodynamic nose cone. ",
+        "bbox": [
+            68,
+            210,
+            926,
+            240
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The exhaust noise figures, are measured in the middle of a vertically orientated radial exhaust duct approximately 1m above the collector, using a calibrated hot gas sound level probe system. ",
+        "bbox": [
+            68,
+            241,
+            914,
+            271
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The turbine casing noise levels are quoted as sound pressure levels (SPL) Ref. 2 x 10-5 N/m2, dB. These were measured at 1m from the turbine skid edge of an unenclosed set and at a height level with the core engine centre line, using a condenser microphone and wind shield. ",
+        "bbox": [
+            60,
+            285,
+            936,
+            331
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "All noise data is subject to a tolerance of ±2dB. ",
+        "bbox": [
+            65,
+            346,
+            455,
+            362
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "a) GT Turbine casing noise ",
+        "text_level": 1,
+        "bbox": [
+            90,
+            376,
+            341,
+            394
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/0f8c65db000b339e59c2a1dc79510e964fcaf4cf333d552008b7460008a41fe5.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "(based upon gas fuel DLE unit measurements) Figures given above are for all levels of power output. "
+        ],
+        "bbox": [
+            52,
+            407,
+            931,
+            521
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "b) GT Air inlet noise ",
+        "text_level": 1,
+        "bbox": [
+            90,
+            567,
+            277,
+            583
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/df3ee43a4ee9965e0515cecb5396a167040a381494eafe5fb4bd8188fc18da8c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            50,
+            596,
+            902,
+            681
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "c) GT exhaust noise ",
+        "text_level": 1,
+        "bbox": [
+            90,
+            696,
+            278,
+            712
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/f749d142001597870f5eb4a200bc5cd9de4ef5f12e41d2f5c48a7751a59d5c19.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "(based upon gas fuel DLE unit measurements) "
+        ],
+        "bbox": [
+            52,
+            726,
+            907,
+            809
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Siemens Industrial Turbomachinery Department E O GT R&D Ref.-No.: 64/03020193 ",
+        "bbox": [
+            78,
+            868,
+            278,
+            939
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Issue 05   \nPage 12 of 49   \nDate:12-12-2014 ",
+        "bbox": [
+            687,
+            869,
+            818,
+            921
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "d) Standard air blast lube oil cooler for gen set noise (RH5 size – may be reduced to RH4 in detail design stage) ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            134,
+            932,
+            165
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/7f9b4d76f0e8f019e6da3470324601cbe15d1858672794a5d6755996c36f9fce.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            52,
+            165,
+            910,
+            259
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.13 Engine mass flows and temperature ",
+        "text_level": 1,
+        "bbox": [
+            33,
+            288,
+            401,
+            305
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The gas turbine mass flow data quoted is subject to a +/- 3% tolerance. The exhaust temperatures are subject to a tolerance of ±15oC ",
+        "bbox": [
+            60,
+            318,
+            650,
+            350
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "a) Inlet mass flows ",
+        "bbox": [
+            60,
+            366,
+            238,
+            381
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/f55776a83076994340c63b202e9cd987bdb41c16e129945df7d3772486c718d4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            52,
+            395,
+            931,
+            480
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "b) Exhaust flows and temperatures ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            494,
+            379,
+            511
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/3dc0859d4b5ffff18fe53ca1484ebc7b4f99bb8997dd9e67c5d0f5b508a7c248.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "\\*based on non uprated engine "
+        ],
+        "bbox": [
+            50,
+            524,
+            931,
+            670
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.14 Exhaust pressures ",
+        "text_level": 1,
+        "bbox": [
+            30,
+            700,
+            247,
+            717
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "a) The max allowable exhaust back pressure for a simple cycle exhaust system is 75mmH2O measured from the exhaust collector flange.   \nb) The additional pressure drop across a waste heat recovery system should not exceed 250mmH2O   \nc) The pressure drop across a silencer should not exceed 60mmH2O   \nd) When an application has even a remote possibility that the exhaust may become blocked (e.g. By-pass ",
+        "bbox": [
+            53,
+            731,
+            939,
+            856
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Issue 05   \nPage 13 of 49   \nDate:12-12-2014 ",
+        "bbox": [
+            687,
+            869,
+            818,
+            920
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Damper etc) then the exhaust flexible upstream of the potential blockage should be designed to withstand, as a minimum, a pressure of 940mmH2O. ",
+        "bbox": [
+            85,
+            134,
+            921,
+            164
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.15 Exhaust life data ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            179,
+            230,
+            195
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "These data are for life cycle analysis. Maximum temperatures are indicated in engine flows and temperature section ",
+        "bbox": [
+            58,
+            209,
+            927,
+            240
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Data required from core engine ",
+        "bbox": [
+            62,
+            254,
+            322,
+            271
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.16 Combustion inlet pressure drop and design pressure ",
+        "text_level": 1,
+        "bbox": [
+            38,
+            285,
+            549,
+            300
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) The inlet ducting shall be designed for momentary reverse flow of 406 mmH2O. b) The max allowable intake system pressure drop is 100mmH2O in clean condition ",
+        "bbox": [
+            52,
+            315,
+            749,
+            346
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.17 Geometric tolerances ",
+        "text_level": 1,
+        "bbox": [
+            35,
+            361,
+            272,
+            375
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) Tolerances of flanges is as below ",
+        "bbox": [
+            60,
+            391,
+            369,
+            406
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Squareness +/- 2.5mm. • Flatness +/- 2.5mm Overall dimensions +/- 3.0mm Parallel on mating faces 3.0mm max. face to face. ",
+        "bbox": [
+            89,
+            407,
+            541,
+            470
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "b) Tolerances on bolt hole locations should be no greater than the design bolt radial clearance to ensure that the ducts can be connected without the opening out of any holes. ",
+        "bbox": [
+            60,
+            485,
+            926,
+            516
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3.18 Coordinate system ",
+        "text_level": 1,
+        "bbox": [
+            31,
+            545,
+            248,
+            560
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Siemens standard coordinate system is referenced in EIN 04-11-00 ",
+        "bbox": [
+            33,
+            561,
+            586,
+            575
+        ],
+        "page_idx": 9
+    }
+]

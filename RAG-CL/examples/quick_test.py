@@ -8,7 +8,7 @@ import logging
 from pathlib import Path
 
 # 添加ragcl包到Python路径
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from ragcl import RAGAnythingCL, RAGAnythingCLConfig
 
@@ -58,7 +58,7 @@ def quick_test():
     
     # 检查PDF文件
     print("\n4. 检查PDF文件...")
-    pdf_path = Path(__file__).parent / "input" / "p5-14.pdf"
+    pdf_path = Path(__file__).parent.parent / "input" / "p5-14.pdf"
     if pdf_path.exists():
         print(f"✅ PDF文件存在: {pdf_path}")
         print(f"📏 文件大小: {pdf_path.stat().st_size / 1024:.1f} KB")
@@ -97,17 +97,16 @@ def test_simple_parse():
     """尝试简单的PDF解析"""
     print("\n=== 尝试PDF解析 ===")
     
-    pdf_path = Path(__file__).parent / "input" / "p5-14.pdf"
+    pdf_path = Path(__file__).parent.parent / "input" / "p5-14.pdf"
     
     # 使用更简单的配置
     config = RAGAnythingCLConfig(
         parser='mineru',
         working_dir='./quick_parse_output',
-        parse_method='txt',  # 使用更简单的txt方法
+        parse_method='auto',  # 使用更简单的txt方法
         enable_image_processing=False,  # 禁用复杂功能
         enable_table_processing=False,
         enable_equation_processing=False,
-        save_intermediate=True
     )
     
     ragcl = RAGAnythingCL(config)
