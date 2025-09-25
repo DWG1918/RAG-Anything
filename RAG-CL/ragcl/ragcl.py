@@ -13,6 +13,7 @@ import json
 
 from .config import RAGAnythingCLConfig
 from .parser import MineruParser, DoclingParser, Parser
+from .entity_extractor import EntityExtractor
 
 
 class RAGAnythingCL:
@@ -35,6 +36,9 @@ class RAGAnythingCL:
         
         # Initialize parser based on configuration
         self.parser = self._init_parser()
+        
+        # Initialize entity extractor
+        self.entity_extractor = EntityExtractor()
         
         # Ensure working directory exists
         Path(self.config.working_dir).mkdir(parents=True, exist_ok=True)
@@ -325,3 +329,123 @@ class RAGAnythingCL:
             "output_format": self.config.output_format,
             "supported_formats": self.get_supported_formats(),
         }
+    
+    def extract_entities(
+        self,
+        content_list: List[Dict[str, Any]],
+        extract_relations: bool = True
+    ) -> Dict[str, Any]:
+        """
+        Extract entities from parsed content list
+        
+        Args:
+            content_list: Parsed content blocks from document parsing
+            extract_relations: Whether to extract entity relationships
+            
+        Returns:
+            Dict[str, Any]: Extracted entities and relationships
+        """
+        self.logger.info(f"Extracting entities from {len(content_list)} content blocks...")
+        
+        try:
+            # Use synchronous version of entity extraction
+            entities_result = self.entity_extractor.extract_entities_sync(content_list)
+            
+            self.logger.info(
+                f"Entity extraction completed: {entities_result['statistics']['total_entities']} entities, "
+                f"{entities_result['statistics']['total_relationships']} relationships"
+            )
+            
+            return entities_result
+            
+        except Exception as e:
+            self.logger.error(f"Entity extraction failed: {str(e)}")
+            raise
+    
+    def parse_and_extract_entities(
+        self,
+        file_path: Union[str, Path],
+        output_dir: Optional[str] = None,
+        extract_relations: bool = True,
+        **kwargs
+    ) -> Dict[str, Any]:
+        """
+        Parse document and extract entities in one step
+        
+        Args:
+            file_path: Path to the document file
+            output_dir: Output directory (uses config working_dir if None)
+            extract_relations: Whether to extract entity relationships
+            **kwargs: Additional arguments for parser
+            
+        Returns:
+            Dict[str, Any]: Complete processing result with content and entities
+        """
+        self.logger.info(f"Starting complete processing for: {file_path}")
+        
+        # Step 1: Parse document
+        content_list = self.parse_document(file_path, output_dir, **kwargs)
+        
+        # Step 2: Extract entities
+        entities_result = self.extract_entities(content_list, extract_relations)
+        
+        # Combine results
+        complete_result = {
+            "file_path": str(file_path),
+            "parsing_stats": {
+                "total_content_blocks": len(content_list),
+                "content_types": self._get_content_type_stats(content_list)
+            },
+            "content_list": content_list,
+            "entities": entities_result["entities"],
+            "relationships": entities_result["relationships"],
+            "document_analysis": entities_result["document_analysis"],
+            "entity_stats": entities_result["statistics"]
+        }
+        
+        # Save complete results if configured
+        if self.config.save_intermediate:
+            self._save_complete_results(file_path, complete_result, output_dir or self.config.working_dir)
+        
+        return complete_result
+    
+    def _get_content_type_stats(self, content_list: List[Dict[str, Any]]) -> Dict[str, int]:
+        """Get statistics about content block types"""
+        stats = {}
+        for item in content_list:
+            if isinstance(item, dict):
+                content_type = item.get("type", "unknown")
+                stats[content_type] = stats.get(content_type, 0) + 1
+        return stats
+    
+    def _save_complete_results(
+        self,
+        file_path: Path,
+        results: Dict[str, Any],
+        output_dir: str
+    ) -> None:
+        """Save complete processing results including entities"""
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        base_name = Path(file_path).stem
+        output_file = output_path / f"{base_name}_complete_results.json"
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        
+        self.logger.info(f"Saved complete results to {output_file}")
+        
+        # Also save entities separately
+        entities_file = output_path / f"{base_name}_entities.json"
+        entities_data = {
+            "entities": results["entities"],
+            "relationships": results["relationships"],
+            "document_analysis": results["document_analysis"],
+            "statistics": results["entity_stats"]
+        }
+        
+        with open(entities_file, 'w', encoding='utf-8') as f:
+            json.dump(entities_data, f, ensure_ascii=False, indent=2)
+        
+        self.logger.info(f"Saved entities to {entities_file}")
