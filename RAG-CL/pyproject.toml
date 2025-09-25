@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragcl"
+dynamic = ["version"]
+authors = [
+    {name = "RAG-CL Team"}
+]
+description = "RAG-CL: Document Parsing System based on RAG-Anything"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: General",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "mineru[core]>=0.2.0",
+    "tqdm>=4.0.0",
+]
+
+[project.optional-dependencies]
+image = ["Pillow>=10.0.0"]
+text = ["reportlab>=4.0.0"]
+office = []  # Requires LibreOffice (external program)
+docling = ["docling>=1.0.0"]
+all = [
+    "Pillow>=10.0.0",
+    "reportlab>=4.0.0",
+    "docling>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/HKUDS/RAG-Anything/RAG-CL"
+Documentation = "https://github.com/HKUDS/RAG-Anything/RAG-CL"
+Repository = "https://github.com/HKUDS/RAG-Anything"
+Issues = "https://github.com/HKUDS/RAG-Anything/issues"
+
+[project.scripts]
+ragcl = "ragcl.parser:main"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=6.0",
+    "pytest-asyncio",
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+    "python-dotenv",
+]
+
+[tool.setuptools.packages.find]
+include = ["ragcl*"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "ragcl.__version__"}
+
+[tool.ruff]
+target-version = "py310"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 100
