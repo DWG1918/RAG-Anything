@@ -28,7 +28,7 @@ class EntityExtractor:
         self,
         api_base: str = "https://api.chatanywhere.tech/v1",
         api_key: str = "sk-FiF5mSQ5EF1QrvI4FrVB7ZnrmXCjlJDUokJfTJ7HuNP5KQ78",
-        model: str = "gpt-3.5-turbo"
+        model: str = "gpt-4o-mini"
     ):
         """
         初始化实体提取器

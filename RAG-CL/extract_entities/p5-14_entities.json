@@ -1,0 +1,417 @@
+{
+  "entities": [
+    {
+      "name": "Siemens",
+      "type": "Organization",
+      "description": "A global technology company known for its engineering and manufacturing capabilities.",
+      "relevance_score": 0.9,
+      "source_block": 0,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "standardised package solution",
+      "type": "Product",
+      "description": "A packaged solution developed for product development purposes.",
+      "relevance_score": 0.8,
+      "source_block": 0,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "acoustic package",
+      "type": "产品",
+      "description": "一种声学包，具有两种配置，适用于陆上和海上应用。",
+      "relevance_score": 0.9,
+      "source_block": 1,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "onshore application",
+      "type": "应用类型",
+      "description": "指在陆地上使用的应用场景。",
+      "relevance_score": 0.8,
+      "source_block": 1,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "offshore applications",
+      "type": "应用类型",
+      "description": "指在海洋或水域中使用的应用场景。",
+      "relevance_score": 0.8,
+      "source_block": 1,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "standard documentation",
+      "type": "文档",
+      "description": "一套标准化的文档，用于指导产品的使用和维护。",
+      "relevance_score": 0.7,
+      "source_block": 1,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "technical specification",
+      "type": "document",
+      "description": "A detailed document outlining the technical requirements and standards for a package.",
+      "relevance_score": 0.9,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier specific specification",
+      "type": "document",
+      "description": "A specification that includes details specific to a supplier, including options and drawing numbers.",
+      "relevance_score": 0.85,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "bidder",
+      "type": "role",
+      "description": "An entity that submits a proposal or offer in response to a request for proposals.",
+      "relevance_score": 0.8,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "attachments",
+      "type": "document",
+      "description": "Additional documents that accompany the technical specification.",
+      "relevance_score": 0.7,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "points of divergence",
+      "type": "concept",
+      "description": "Specific areas where the bidder's proposal may differ from the technical specification.",
+      "relevance_score": 0.75,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "equipment of delivery",
+      "type": "technical term",
+      "description": "Refers to the necessary equipment included in the delivery scope.",
+      "relevance_score": 0.9,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "scope of supply",
+      "type": "technical term",
+      "description": "The range of items and components included in the delivery.",
+      "relevance_score": 0.85,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "complete and functional unit",
+      "type": "technical term",
+      "description": "A fully operational assembly of equipment as required by the specification.",
+      "relevance_score": 0.8,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Acoustic Package",
+      "type": "产品名称",
+      "description": "一种根据功能而非设计类型定义的声学包",
+      "relevance_score": 0.9,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "performance terms",
+      "type": "专业术语",
+      "description": "用于描述声学包规格的性能术语",
+      "relevance_score": 0.8,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "specification",
+      "type": "专业术语",
+      "description": "对声学包的详细描述和要求",
+      "relevance_score": 0.7,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Acoustic enclosure",
+      "type": "Equipment",
+      "description": "A structure designed to reduce noise from machinery or equipment.",
+      "relevance_score": 0.9,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Ventilation system",
+      "type": "System",
+      "description": "A system that provides air circulation and filtration, including fans and ducts.",
+      "relevance_score": 0.9,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Combustion intake system",
+      "type": "System",
+      "description": "A system that manages the intake of air for combustion processes, including filtration and ductwork.",
+      "relevance_score": 0.85,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Exhaust system",
+      "type": "System",
+      "description": "A system that expels gases produced during combustion, including silencers and ducts.",
+      "relevance_score": 0.85,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "L.O cooler pipework",
+      "type": "Component",
+      "description": "Pipework associated with the lubrication oil cooler.",
+      "relevance_score": 0.8,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Cable tray",
+      "type": "Component",
+      "description": "A support system for electrical cables.",
+      "relevance_score": 0.75,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "SGT-100-2S N package",
+      "type": "Product",
+      "description": "A specific model of acoustic equipment.",
+      "relevance_score": 0.95,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "RU01042A",
+      "type": "Document",
+      "description": "A drawing related to the acoustic equipment parameters.",
+      "relevance_score": 0.7,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "表格开始标记",
+      "type": "data_point",
+      "value": "<",
+      "description": "表示表格的开始",
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "table",
+      "source_caption": []
+    },
+    {
+      "name": "表格结束标记",
+      "type": "data_point",
+      "value": ">",
+      "description": "表示表格的结束",
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "table",
+      "source_caption": []
+    },
+    {
+      "name": "表格内容",
+      "type": "data_point",
+      "value": "table",
+      "description": "表格的内容",
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "table",
+      "source_caption": []
+    },
+    {
+      "name": "表格内容",
+      "type": "data_point",
+      "value": "tr",
+      "description": "表格的行标记",
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "table",
+      "source_caption": []
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Siemens",
+      "to": "standardised package solution",
+      "relation": "provides",
+      "description": "Siemens provides standardised package solutions for various applications.",
+      "confidence": 0.9
+    },
+    {
+      "from": "standardised package solution",
+      "to": "acoustic package",
+      "relation": "includes",
+      "description": "The standardised package solution includes an acoustic package for noise control.",
+      "confidence": 0.8
+    },
+    {
+      "from": "acoustic package",
+      "to": "onshore application",
+      "relation": "suitable_for",
+      "description": "The acoustic package is suitable for onshore applications.",
+      "confidence": 0.7
+    },
+    {
+      "from": "acoustic package",
+      "to": "offshore applications",
+      "relation": "suitable_for",
+      "description": "The acoustic package is also suitable for offshore applications.",
+      "confidence": 0.7
+    },
+    {
+      "from": "standard documentation",
+      "to": "technical specification",
+      "relation": "defines",
+      "description": "Standard documentation defines the technical specifications required for the project.",
+      "confidence": 0.85
+    },
+    {
+      "from": "technical specification",
+      "to": "supplier specific specification",
+      "relation": "depends_on",
+      "description": "The technical specification may depend on supplier specific specifications.",
+      "confidence": 0.75
+    },
+    {
+      "from": "bidder",
+      "to": "attachments",
+      "relation": "submits",
+      "description": "The bidder submits attachments as part of their proposal.",
+      "confidence": 0.9
+    },
+    {
+      "from": "attachments",
+      "to": "points of divergence",
+      "relation": "highlights",
+      "description": "Attachments may highlight points of divergence in specifications.",
+      "confidence": 0.8
+    },
+    {
+      "from": "scope of supply",
+      "to": "equipment of delivery",
+      "relation": "includes",
+      "description": "The scope of supply includes the equipment of delivery.",
+      "confidence": 0.85
+    },
+    {
+      "from": "equipment of delivery",
+      "to": "complete and functional unit",
+      "relation": "constitutes",
+      "description": "The equipment of delivery constitutes a complete and functional unit.",
+      "confidence": 0.9
+    },
+    {
+      "from": "Acoustic Package",
+      "to": "performance terms",
+      "relation": "specifies",
+      "description": "The Acoustic Package specifies performance terms for its operation.",
+      "confidence": 0.8
+    },
+    {
+      "from": "specification",
+      "to": "Acoustic enclosure",
+      "relation": "defines",
+      "description": "The specification defines the requirements for the Acoustic enclosure.",
+      "confidence": 0.85
+    },
+    {
+      "from": "Acoustic enclosure",
+      "to": "Ventilation system",
+      "relation": "integrates_with",
+      "description": "The Acoustic enclosure integrates with the Ventilation system for optimal performance.",
+      "confidence": 0.75
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Combustion intake system",
+      "relation": "supports",
+      "description": "The Ventilation system supports the Combustion intake system to ensure proper airflow.",
+      "confidence": 0.7
+    }
+  ],
+  "document_analysis": {
+    "document_info": {
+      "title": "Acoustic Package Specification",
+      "type": "Technical Specification",
+      "domain": "Engineering",
+      "language": "English"
+    },
+    "structure_entities": [
+      {
+        "name": "Main Scope of Supply",
+        "type": "section",
+        "content_summary": "Description of the acoustic package scope.",
+        "page_range": [
+          1,
+          1
+        ]
+      }
+    ],
+    "global_entities": [
+      {
+        "name": "Acoustic Package",
+        "type": "Product",
+        "frequency": 5,
+        "importance": "High",
+        "description": "A standardized package solution developed for varied markets."
+      },
+      {
+        "name": "Technical Specification",
+        "type": "Document",
+        "frequency": 3,
+        "importance": "High",
+        "description": "Specification that outlines the technical requirements for procurement."
+      },
+      {
+        "name": "Bidder",
+        "type": "Stakeholder",
+        "frequency": 2,
+        "importance": "Medium",
+        "description": "Entity that must conform to the technical specification."
+      }
+    ]
+  },
+  "statistics": {
+    "total_entities": 29,
+    "total_relationships": 14,
+    "text_blocks_processed": 14,
+    "table_blocks_processed": 1
+  }
+}
