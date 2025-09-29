@@ -1,0 +1,1037 @@
+{
+  "entities": [
+    {
+      "name": "Siemens",
+      "type": "Organization",
+      "description": "A global technology company known for its engineering and manufacturing capabilities.",
+      "relevance_score": 0.9,
+      "source_block": 2,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "product development",
+      "type": "Concept",
+      "description": "The process of creating and improving products.",
+      "relevance_score": 0.7,
+      "source_block": 2,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "standardised package solution",
+      "type": "Product",
+      "description": "A pre-defined solution package developed for specific applications.",
+      "relevance_score": 0.8,
+      "source_block": 2,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "project",
+      "type": "Concept",
+      "description": "A planned set of interrelated tasks to achieve a specific goal.",
+      "relevance_score": 0.6,
+      "source_block": 2,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Product",
+      "type": "Concept",
+      "description": "A product designed to fit varied markets with pre-engineered options.",
+      "relevance_score": 0.9,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Manufacturing Time",
+      "type": "Concept",
+      "description": "The time required to manufacture a product.",
+      "relevance_score": 0.8,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Installation Time",
+      "type": "Concept",
+      "description": "The time required to install a product.",
+      "relevance_score": 0.8,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Maintenance Cost",
+      "type": "Concept",
+      "description": "The cost associated with maintaining a product.",
+      "relevance_score": 0.7,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Standard Documentation",
+      "type": "Concept",
+      "description": "A set of documents that provide guidelines and information about the product.",
+      "relevance_score": 0.6,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Package Purchase Cost",
+      "type": "Concept",
+      "description": "The cost incurred when purchasing a package of products.",
+      "relevance_score": 0.7,
+      "source_block": 3,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "acoustic package",
+      "type": "Product",
+      "description": "A technical package related to acoustics, specified for procurement.",
+      "relevance_score": 0.9,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "technical requirements",
+      "type": "Concept",
+      "description": "Specifications that outline the necessary criteria for the procurement process.",
+      "relevance_score": 0.8,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "configurations",
+      "type": "Concept",
+      "description": "Different setups or arrangements of the acoustic package.",
+      "relevance_score": 0.7,
+      "source_block": 4,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "onshore application",
+      "type": "Concept",
+      "description": "An application that is developed and operated within the home country or territory.",
+      "relevance_score": 0.8,
+      "source_block": 5,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "offshore applications",
+      "type": "Concept",
+      "description": "Applications that are developed and operated outside the home country or territory.",
+      "relevance_score": 0.8,
+      "source_block": 5,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "specification",
+      "type": "Concept",
+      "description": "A document detailing technical aspects and options for a package.",
+      "relevance_score": 0.9,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier",
+      "type": "Organization",
+      "description": "An entity that provides goods or services.",
+      "relevance_score": 0.8,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier drawing numbers",
+      "type": "Concept",
+      "description": "Specific identifiers for drawings provided by the supplier.",
+      "relevance_score": 0.7,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier specific specification",
+      "type": "Concept",
+      "description": "A detailed specification tailored to a specific supplier.",
+      "relevance_score": 0.8,
+      "source_block": 6,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "bidder",
+      "type": "Concept",
+      "description": "An individual or organization that submits a proposal or offer in response to a request for proposals.",
+      "relevance_score": 0.9,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "technical specification",
+      "type": "Concept",
+      "description": "A detailed description of the technical requirements and standards that must be met.",
+      "relevance_score": 0.8,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "attachments",
+      "type": "Concept",
+      "description": "Supplementary documents that provide additional information related to the technical specification.",
+      "relevance_score": 0.7,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "points of divergence",
+      "type": "Concept",
+      "description": "Specific areas where the bidder's proposal may differ from the technical specification.",
+      "relevance_score": 0.6,
+      "source_block": 7,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "component",
+      "type": "Concept",
+      "description": "A part or element of a larger system or equipment.",
+      "relevance_score": 0.8,
+      "source_block": 8,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "unit",
+      "type": "Concept",
+      "description": "A distinct part of the equipment that can function independently.",
+      "relevance_score": 0.7,
+      "source_block": 8,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "equipment of delivery",
+      "type": "Concept",
+      "description": "The necessary tools and components required for delivery.",
+      "relevance_score": 0.9,
+      "source_block": 8,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "scope of supply",
+      "type": "Concept",
+      "description": "The range of items and services included in a delivery contract.",
+      "relevance_score": 0.85,
+      "source_block": 8,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "complete and functional unit",
+      "type": "Concept",
+      "description": "An assembly that is fully operational and ready for use.",
+      "relevance_score": 0.75,
+      "source_block": 8,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Acoustic Package",
+      "type": "Concept",
+      "description": "A package defined by its acoustic performance rather than its design type.",
+      "relevance_score": 0.9,
+      "source_block": 9,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "specification",
+      "type": "Concept",
+      "description": "A detailed description of requirements or performance terms.",
+      "relevance_score": 0.7,
+      "source_block": 9,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "performance terms",
+      "type": "Concept",
+      "description": "Criteria used to define the functionality of the Acoustic Package.",
+      "relevance_score": 0.8,
+      "source_block": 9,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "requirements",
+      "type": "Concept",
+      "description": "Conditions that the Acoustic Package must meet.",
+      "relevance_score": 0.6,
+      "source_block": 9,
+      "source_page": 0,
+      "source_type": "text"
+    },
+    {
+      "name": "Main Scope of Supply",
+      "type": "Concept",
+      "description": "The primary focus or range of products and services provided in a supply agreement.",
+      "relevance_score": 0.8,
+      "source_block": 10,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "acoustic package",
+      "type": "Concept",
+      "description": "A set of components or features related to sound or acoustics.",
+      "relevance_score": 0.8,
+      "source_block": 11,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "scope",
+      "type": "Concept",
+      "description": "The extent or range of the acoustic package's components and features.",
+      "relevance_score": 0.6,
+      "source_block": 11,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Acoustic enclosure",
+      "type": "Concept",
+      "description": "A structure designed to reduce noise from machinery or equipment.",
+      "relevance_score": 0.9,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Support steelwork",
+      "type": "Concept",
+      "description": "Steel framework used to support structures or equipment.",
+      "relevance_score": 0.8,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Ventilation system",
+      "type": "Concept",
+      "description": "A system designed to provide fresh air and remove stale air from an environment.",
+      "relevance_score": 0.9,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Fan",
+      "type": "Product",
+      "description": "A device that moves air to facilitate ventilation.",
+      "relevance_score": 0.7,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Silencer",
+      "type": "Product",
+      "description": "A device used to reduce noise from exhaust or ventilation systems.",
+      "relevance_score": 0.7,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Ventilation dampers",
+      "type": "Product",
+      "description": "Devices used to regulate airflow in ventilation systems.",
+      "relevance_score": 0.6,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Filter",
+      "type": "Product",
+      "description": "A device that removes impurities from air or fluids.",
+      "relevance_score": 0.6,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Duct work",
+      "type": "Concept",
+      "description": "The system of ducts used to transport air in ventilation systems.",
+      "relevance_score": 0.8,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Combustion intake system",
+      "type": "Concept",
+      "description": "A system that supplies air for combustion processes.",
+      "relevance_score": 0.8,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Exhaust system",
+      "type": "Concept",
+      "description": "A system designed to expel gases produced by combustion.",
+      "relevance_score": 0.8,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "L.O cooler pipework",
+      "type": "Concept",
+      "description": "Pipework used for lubricating oil cooling.",
+      "relevance_score": 0.6,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Breather pipework",
+      "type": "Concept",
+      "description": "Pipework that allows air to enter or exit a system to prevent vacuum or pressure buildup.",
+      "relevance_score": 0.6,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Cable tray",
+      "type": "Product",
+      "description": "A support system for electrical cables.",
+      "relevance_score": 0.5,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Small bore pipework",
+      "type": "Concept",
+      "description": "Pipework with a small diameter used for various applications.",
+      "relevance_score": 0.5,
+      "source_block": 12,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "supply",
+      "type": "Concept",
+      "description": "The provision of goods or services to meet demand.",
+      "relevance_score": 0.8,
+      "source_block": 13,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "General Split",
+      "type": "Concept",
+      "description": "A term likely referring to the distribution or allocation of supply.",
+      "relevance_score": 0.7,
+      "source_block": 13,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "Siemens",
+      "type": "Organization",
+      "description": "A global technology company known for its engineering and manufacturing capabilities.",
+      "relevance_score": 0.9,
+      "source_block": 15,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "combined test",
+      "type": "Concept",
+      "description": "A testing methodology that involves multiple components or systems working together.",
+      "relevance_score": 0.7,
+      "source_block": 15,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "SGT-100-2S N",
+      "type": "Product",
+      "description": "A specific model of acoustic equipment.",
+      "relevance_score": 0.9,
+      "source_block": 16,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "RU01042A",
+      "type": "Document/Specification",
+      "description": "Parameter drawing associated with the SGT-100-2S N package.",
+      "relevance_score": 0.8,
+      "source_block": 16,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "acoustic equipment",
+      "type": "Concept",
+      "description": "Equipment related to sound and acoustics.",
+      "relevance_score": 0.7,
+      "source_block": 16,
+      "source_page": 1,
+      "source_type": "text"
+    },
+    {
+      "name": "References",
+      "type": "Concept",
+      "description": "Citations or sources of information used in a document.",
+      "relevance_score": 0.8,
+      "source_block": 17,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "Design Codes",
+      "type": "Concept",
+      "description": "Standards and guidelines used in the design process.",
+      "relevance_score": 0.9,
+      "source_block": 17,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "International Standards",
+      "type": "Concept",
+      "description": "Standards that are recognized globally for various industries.",
+      "relevance_score": 0.9,
+      "source_block": 18,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "European Standards",
+      "type": "Concept",
+      "description": "Standards that are recognized within Europe for various industries.",
+      "relevance_score": 0.9,
+      "source_block": 18,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier",
+      "type": "Organization",
+      "description": "An entity that provides goods or services.",
+      "relevance_score": 0.8,
+      "source_block": 18,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "design",
+      "type": "Concept",
+      "description": "The process of creating a plan or drawing for the construction of an object or system.",
+      "relevance_score": 0.7,
+      "source_block": 18,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "supplier",
+      "type": "Organization",
+      "description": "An entity responsible for providing goods or services.",
+      "relevance_score": 0.8,
+      "source_block": 19,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "standards",
+      "type": "Concept",
+      "description": "Established norms or requirements for processes or products.",
+      "relevance_score": 0.9,
+      "source_block": 19,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "local legislation",
+      "type": "Concept",
+      "description": "Laws and regulations that are applicable in a specific locality.",
+      "relevance_score": 0.85,
+      "source_block": 19,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "pre-definition",
+      "type": "Concept",
+      "description": "The act of defining something in advance.",
+      "relevance_score": 0.7,
+      "source_block": 19,
+      "source_page": 2,
+      "source_type": "text"
+    },
+    {
+      "name": "implications",
+      "type": "Concept",
+      "description": "The possible effects or consequences of an action.",
+      "relevance_score": 0.75,
+      "source_block": 19,
+      "source_page": 2,
+      "source_type": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Siemens",
+      "to": "product development",
+      "relation": "develops",
+      "description": "Siemens is responsible for the development of product development processes.",
+      "confidence": 0.85,
+      "source_block": 2,
+      "source_page": 0
+    },
+    {
+      "from": "product development",
+      "to": "standardised package solution",
+      "relation": "creates",
+      "description": "The product development process leads to the creation of a standardised package solution.",
+      "confidence": 0.8,
+      "source_block": 2,
+      "source_page": 0
+    },
+    {
+      "from": "project",
+      "to": "standardised package solution",
+      "relation": "aims to deliver",
+      "description": "The project aims to deliver a standardised package solution.",
+      "confidence": 0.75,
+      "source_block": 2,
+      "source_page": 0
+    },
+    {
+      "from": "Product",
+      "to": "Manufacturing Time",
+      "relation": "reduces",
+      "description": "The product is structured to reduce manufacturing time and costs.",
+      "confidence": 0.9,
+      "source_block": 3,
+      "source_page": 0
+    },
+    {
+      "from": "Product",
+      "to": "Installation Time",
+      "relation": "reduces",
+      "description": "The product is designed to reduce installation time and cost.",
+      "confidence": 0.9,
+      "source_block": 3,
+      "source_page": 0
+    },
+    {
+      "from": "Product",
+      "to": "Maintenance Cost",
+      "relation": "reduces",
+      "description": "The product structure is simplified to reduce maintenance costs.",
+      "confidence": 0.8,
+      "source_block": 3,
+      "source_page": 0
+    },
+    {
+      "from": "Product",
+      "to": "Standard Documentation",
+      "relation": "requires",
+      "description": "The creation of a product necessitates a set of standard documentation.",
+      "confidence": 0.7,
+      "source_block": 3,
+      "source_page": 0
+    },
+    {
+      "from": "Product",
+      "to": "Package Purchase Cost",
+      "relation": "reduces",
+      "description": "The product aims to reduce package purchase costs.",
+      "confidence": 0.8,
+      "source_block": 3,
+      "source_page": 0
+    },
+    {
+      "from": "technical requirements",
+      "to": "acoustic package",
+      "relation": "specifies",
+      "description": "The technical requirements specify the criteria for the acoustic package.",
+      "confidence": 0.9,
+      "source_block": 4,
+      "source_page": 0
+    },
+    {
+      "from": "acoustic package",
+      "to": "configurations",
+      "relation": "has",
+      "description": "The acoustic package has two configurations.",
+      "confidence": 0.8,
+      "source_block": 4,
+      "source_page": 0
+    },
+    {
+      "from": "onshore application",
+      "to": "offshore applications",
+      "relation": "comparison",
+      "description": "The text contrasts onshore applications with offshore applications.",
+      "confidence": 0.9,
+      "source_block": 5,
+      "source_page": 0
+    },
+    {
+      "from": "specification",
+      "to": "supplier specific specification",
+      "relation": "refers to",
+      "description": "The specification refers to the supplier specific specification for detailed information.",
+      "confidence": 0.85,
+      "source_block": 6,
+      "source_page": 0
+    },
+    {
+      "from": "supplier",
+      "to": "supplier drawing numbers",
+      "relation": "provides",
+      "description": "The supplier provides drawing numbers that are relevant to the specification.",
+      "confidence": 0.8,
+      "source_block": 6,
+      "source_page": 0
+    },
+    {
+      "from": "bidder",
+      "to": "technical specification",
+      "relation": "conforms to",
+      "description": "The bidder is required to adhere to the technical specification outlined in the document.",
+      "confidence": 0.9,
+      "source_block": 7,
+      "source_page": 0
+    },
+    {
+      "from": "technical specification",
+      "to": "attachments",
+      "relation": "includes",
+      "description": "The technical specification includes attachments that provide further details.",
+      "confidence": 0.8,
+      "source_block": 7,
+      "source_page": 0
+    },
+    {
+      "from": "bidder",
+      "to": "points of divergence",
+      "relation": "states",
+      "description": "The bidder must explicitly mention any deviations from the technical specification.",
+      "confidence": 0.85,
+      "source_block": 7,
+      "source_page": 0
+    },
+    {
+      "from": "component",
+      "to": "equipment of delivery",
+      "relation": "is part of",
+      "description": "Components are essential parts of the equipment required for delivery.",
+      "confidence": 0.9,
+      "source_block": 8,
+      "source_page": 0
+    },
+    {
+      "from": "unit",
+      "to": "equipment of delivery",
+      "relation": "is part of",
+      "description": "Units are included in the equipment necessary for delivery.",
+      "confidence": 0.85,
+      "source_block": 8,
+      "source_page": 0
+    },
+    {
+      "from": "scope of supply",
+      "to": "equipment of delivery",
+      "relation": "includes",
+      "description": "The scope of supply must encompass all necessary equipment.",
+      "confidence": 0.95,
+      "source_block": 8,
+      "source_page": 0
+    },
+    {
+      "from": "equipment of delivery",
+      "to": "complete and functional unit",
+      "relation": "forms",
+      "description": "The equipment of delivery must create a complete and functional unit.",
+      "confidence": 0.9,
+      "source_block": 8,
+      "source_page": 0
+    },
+    {
+      "from": "Acoustic Package",
+      "to": "specification",
+      "relation": "defined by",
+      "description": "The Acoustic Package is defined by its specification in performance terms.",
+      "confidence": 0.85,
+      "source_block": 9,
+      "source_page": 0
+    },
+    {
+      "from": "specification",
+      "to": "performance terms",
+      "relation": "stated in",
+      "description": "The specification is stated in performance terms rather than detailed descriptions.",
+      "confidence": 0.8,
+      "source_block": 9,
+      "source_page": 0
+    },
+    {
+      "from": "requirements",
+      "to": "Acoustic Package",
+      "relation": "covered by",
+      "description": "The requirements cover the Acoustic Package.",
+      "confidence": 0.75,
+      "source_block": 9,
+      "source_page": 0
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Fan",
+      "relation": "includes",
+      "description": "The ventilation system includes fans as a component.",
+      "confidence": 0.9,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Silencer",
+      "relation": "includes",
+      "description": "The ventilation system includes silencers to reduce noise.",
+      "confidence": 0.9,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Ventilation dampers",
+      "relation": "includes",
+      "description": "The ventilation system includes dampers to regulate airflow.",
+      "confidence": 0.8,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Filter",
+      "relation": "includes",
+      "description": "The ventilation system may include filters for air purification.",
+      "confidence": 0.8,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Ventilation system",
+      "to": "Duct work",
+      "relation": "utilizes",
+      "description": "The ventilation system utilizes duct work for air transport.",
+      "confidence": 0.9,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Combustion intake system",
+      "to": "Filtration",
+      "relation": "includes",
+      "description": "The combustion intake system includes filtration to ensure clean air supply.",
+      "confidence": 0.8,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Exhaust system",
+      "to": "Silencer",
+      "relation": "includes",
+      "description": "The exhaust system includes silencers to minimize noise.",
+      "confidence": 0.9,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Exhaust system",
+      "to": "Duct work",
+      "relation": "utilizes",
+      "description": "The exhaust system utilizes duct work for gas expulsion.",
+      "confidence": 0.9,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Exhaust system",
+      "to": "Expansion joint",
+      "relation": "may include",
+      "description": "The exhaust system may include expansion joints where required.",
+      "confidence": 0.7,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "L.O cooler pipework",
+      "to": "Breather pipework",
+      "relation": "related to",
+      "description": "L.O cooler pipework is related to breather pipework for system functionality.",
+      "confidence": 0.6,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Cable tray",
+      "to": "Small bore pipework",
+      "relation": "supports",
+      "description": "Cable trays support small bore pipework above the enclosure roof.",
+      "confidence": 0.5,
+      "source_block": 12,
+      "source_page": 1
+    },
+    {
+      "from": "Siemens",
+      "to": "combined test",
+      "relation": "requires",
+      "description": "Siemens works effectively when a combined test is required.",
+      "confidence": 0.8,
+      "source_block": 15,
+      "source_page": 1
+    },
+    {
+      "from": "SGT-100-2S N",
+      "to": "RU01042A",
+      "relation": "is described by",
+      "description": "The SGT-100-2S N package is detailed in the RU01042A drawing.",
+      "confidence": 0.85,
+      "source_block": 16,
+      "source_page": 1
+    },
+    {
+      "from": "RU01042A",
+      "to": "acoustic equipment",
+      "relation": "pertains to",
+      "description": "The RU01042A drawing pertains to acoustic equipment parameters.",
+      "confidence": 0.8,
+      "source_block": 16,
+      "source_page": 1
+    },
+    {
+      "from": "References",
+      "to": "Design Codes",
+      "relation": "related to",
+      "description": "References often include design codes as part of the documentation.",
+      "confidence": 0.85,
+      "source_block": 17,
+      "source_page": 2
+    },
+    {
+      "from": "design",
+      "to": "International Standards",
+      "relation": "compliance",
+      "description": "The design must comply with International Standards.",
+      "confidence": 0.9,
+      "source_block": 18,
+      "source_page": 2
+    },
+    {
+      "from": "design",
+      "to": "European Standards",
+      "relation": "compliance",
+      "description": "The design must comply with European Standards.",
+      "confidence": 0.9,
+      "source_block": 18,
+      "source_page": 2
+    },
+    {
+      "from": "supplier",
+      "to": "applicable standards",
+      "relation": "defines",
+      "description": "The supplier is responsible for defining which standards are applicable.",
+      "confidence": 0.8,
+      "source_block": 18,
+      "source_page": 2
+    },
+    {
+      "from": "supplier",
+      "to": "standards",
+      "relation": "develops",
+      "description": "The supplier develops standards to ensure compliance with local legislation.",
+      "confidence": 0.9,
+      "source_block": 19,
+      "source_page": 2
+    },
+    {
+      "from": "standards",
+      "to": "local legislation",
+      "relation": "adapts to",
+      "description": "Standards are adapted to suit local legislation when necessary.",
+      "confidence": 0.85,
+      "source_block": 19,
+      "source_page": 2
+    },
+    {
+      "from": "supplier",
+      "to": "pre-definition",
+      "relation": "considers",
+      "description": "The supplier considers pre-definition for adapting standards.",
+      "confidence": 0.8,
+      "source_block": 19,
+      "source_page": 2
+    },
+    {
+      "from": "pre-definition",
+      "to": "implications",
+      "relation": "affects",
+      "description": "The pre-definition of standards has implications that need to be considered.",
+      "confidence": 0.75,
+      "source_block": 19,
+      "source_page": 2
+    }
+  ],
+  "document_analysis": {
+    "document_info": {
+      "title": "Processed Document",
+      "type": "Technical Document",
+      "domain": "General",
+      "language": "Mixed"
+    },
+    "content_statistics": {
+      "total_pages": 3,
+      "content_types": {
+        "text": 19,
+        "table": 1
+      }
+    },
+    "structure_entities": [],
+    "global_entities": []
+  },
+  "statistics": {
+    "total_entities": 67,
+    "total_relationships": 45,
+    "content_blocks_processed": 20,
+    "processing_method": "raganything_style"
+  }
+}

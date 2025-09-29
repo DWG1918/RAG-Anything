@@ -13,7 +13,7 @@ import json
 
 from .config import RAGAnythingCLConfig
 from .parser import MineruParser, DoclingParser, Parser
-from .entity_extractor import EntityExtractor
+from .raganything_entity_extractor import EntityExtractor
 
 
 class RAGAnythingCL:
